@@ -1,0 +1,43 @@
+#personal-projects-div
+{
+    border: 1px solid black;
+    width:100%; 
+    padding: 36px 30px 24px;
+    height:100%; 
+}
+
+#projects-ul{
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+}
+
+.projects-holder{
+    display:flex; 
+    flex-direction: column;
+    /* border: 1px solid black;  */
+}
+
+#see-more-button
+{
+    color:black; 
+    font-size: 16px;
+   width: 150px; 
+   padding: 2px;
+   border-radius: 7px;
+   background-color: white;
+   /* border: 1px solid black; */
+}
+
+#see-more-div{
+    display: flex;
+    width: 75%; 
+    /* border: 1px solid black; */
+    padding-left: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -90px; 
+}
+

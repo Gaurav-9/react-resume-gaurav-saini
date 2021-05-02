@@ -1,0 +1,62 @@
+#footer-main-div{
+    border: black 1px solid;
+    width: 100%; 
+    background-color: rgb(233, 126, 27); 
+    display:flex; 
+    flex-direction: row;
+    color: white;
+    padding: 50px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    justify-content: space-between;
+}
+
+#navigation-footer-header{
+font-size: 18px;
+font-weight: 550;
+}
+
+
+#navigation-footer-ul{
+margin-top: 18px;
+list-style: none;
+}
+
+.navigation-footer-li{
+   margin-bottom: 2px; 
+   font-size: 13px;
+}
+
+
+#follow-me-sign-div
+{
+    /* border: black 1px solid; */
+    color: white;
+}
+#follow-me-sign-div-header{
+font-size: 16px;
+font-weight: 550;
+margin-bottom: 20px;
+text-align: center;
+}
+
+#resume-name-signature{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 13px;
+}
+
+#react-logo{
+    height:18px; 
+}
+
+.footer-navLinks{
+    color:white; 
+    transition: .9s;
+}
+
+.footer-navLinks:hover{
+    color: white;
+    text-decoration: none;
+    border-bottom: white 1px solid;
+}
