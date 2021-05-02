@@ -8,7 +8,7 @@ import Skills from "./pages/Skills/SkillsWithBootStrap";
 import Contact from "./pages/Contact/Contact";
 import PersonalProjects from "./pages/PersonalProjects/PersonalProjects";
 import NavBar from "./components/NavBar/Navbar";
-
+import { Redirect } from 'react-router-dom';
 import Footer from "./components/Footer/Footer"
 
 const App = () => {
@@ -94,9 +94,7 @@ const App = () => {
             <Route path="/personal-projects" exact>
               <PersonalProjects />
             </Route>
-            <Route path="*">
-              <Home />
-            </Route>
+            <Route render={() => <Redirect to={{pathname: "/"}} />} />
           </main>
           <Footer />
         </Router>
