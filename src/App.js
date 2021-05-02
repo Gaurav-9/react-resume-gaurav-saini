@@ -94,7 +94,9 @@ const App = () => {
             <Route path="/personal-projects" exact>
               <PersonalProjects />
             </Route>
-            <Route path="*" component={Home}/>
+            <Route path="*">
+              <Home />
+            </Route>
           </main>
           <Footer />
         </Router>
