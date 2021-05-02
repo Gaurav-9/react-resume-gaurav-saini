@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-resume-gaurav-saini/static/css/main.8cb21d27.chunk.css",
-    "main.js": "/react-resume-gaurav-saini/static/js/main.a88483de.chunk.js",
-    "main.js.map": "/react-resume-gaurav-saini/static/js/main.a88483de.chunk.js.map",
+    "main.js": "/react-resume-gaurav-saini/static/js/main.d23c1bf2.chunk.js",
+    "main.js.map": "/react-resume-gaurav-saini/static/js/main.d23c1bf2.chunk.js.map",
     "runtime-main.js": "/react-resume-gaurav-saini/static/js/runtime-main.5b4238a5.js",
     "runtime-main.js.map": "/react-resume-gaurav-saini/static/js/runtime-main.5b4238a5.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/react-resume-gaurav-saini/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.bed172de.chunk.js": "/react-resume-gaurav-saini/static/js/2.bed172de.chunk.js",
-    "static/js/2.bed172de.chunk.js.map": "/react-resume-gaurav-saini/static/js/2.bed172de.chunk.js.map",
+    "static/js/2.fb80f74a.chunk.js": "/react-resume-gaurav-saini/static/js/2.fb80f74a.chunk.js",
+    "static/js/2.fb80f74a.chunk.js.map": "/react-resume-gaurav-saini/static/js/2.fb80f74a.chunk.js.map",
     "index.html": "/react-resume-gaurav-saini/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/react-resume-gaurav-saini/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.8cb21d27.chunk.css.map": "/react-resume-gaurav-saini/static/css/main.8cb21d27.chunk.css.map",
-    "static/js/2.bed172de.chunk.js.LICENSE.txt": "/react-resume-gaurav-saini/static/js/2.bed172de.chunk.js.LICENSE.txt",
+    "static/js/2.fb80f74a.chunk.js.LICENSE.txt": "/react-resume-gaurav-saini/static/js/2.fb80f74a.chunk.js.LICENSE.txt",
     "static/media/534-5342172_c-language-course-c-logo.0a81196c.png": "/react-resume-gaurav-saini/static/media/534-5342172_c-language-course-c-logo.0a81196c.png",
     "static/media/964418-middle.2f3c6b76.png": "/react-resume-gaurav-saini/static/media/964418-middle.2f3c6b76.png",
     "static/media/C++-595b40b75ba036ed117d5b19.dc26fbc8.svg": "/react-resume-gaurav-saini/static/media/C++-595b40b75ba036ed117d5b19.dc26fbc8.svg",
@@ -48,8 +48,8 @@
   "entrypoints": [
     "static/js/runtime-main.5b4238a5.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.bed172de.chunk.js",
+    "static/js/2.fb80f74a.chunk.js",
     "static/css/main.8cb21d27.chunk.css",
-    "static/js/main.a88483de.chunk.js"
+    "static/js/main.d23c1bf2.chunk.js"
   ]
 }
