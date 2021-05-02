@@ -134,6 +134,7 @@ header ul li
     align-items: right;
     /* border:1px solid black;  */
     height:50px; 
+    white-space: nowrap;
  }
 
  #list-with-burger
