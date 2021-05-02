@@ -183,3 +183,24 @@
 
   
 }
+
+
+@media screen and (max-width:450px)
+{
+  #experience-education-holder{
+    /* border: solid 1px black; */
+    width:300px; 
+    margin-bottom: 100px;
+    margin-top: 20px;
+  } 
+
+  .experience-education-ul{
+    margin-left:-50px; 
+
+  }
+
+
+
+  
+}
+

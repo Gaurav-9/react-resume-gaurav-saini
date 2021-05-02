@@ -108,3 +108,23 @@ width: 75px;
 height: 39px;
 
 }
+
+
+@media screen and (max-width:450px)
+{
+  #interest-card-holder-row {
+   margin-left: -40px;
+   border: solid 1px black;
+   width:200px; 
+  }
+
+
+  #interest-pill {
+    width:300px; 
+  }
+
+  #calulator-logo  {
+   display:none; 
+  
+  }
+}
