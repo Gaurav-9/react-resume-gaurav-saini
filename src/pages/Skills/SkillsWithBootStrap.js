@@ -71,7 +71,7 @@ function Skills() {
     <div id="main-skills-div">
       <div id="programming-skills-header">Programming Skills</div>
       <div id="home-header-introduction">
-      Take a look at some of my programming skills!
+      Skills aquired from work experience and personal projects.
       </div>
       <div id="header-bottom-border"></div>
       <div id="carousel-holder-div">
@@ -154,7 +154,7 @@ function Skills() {
               <div className="card-info">
                 <div className="ee-card-header">Communication Skills</div>
                 <div className="ee-card-header-description">
-                  Developed through Customer Service and Leadership Positions
+                  Developed through customer service and leadership positions.
                 </div>
                 <div className="ee-card-description">
                   Workplace Skill
@@ -181,7 +181,7 @@ function Skills() {
               <div className="card-info">
                 <div className="ee-card-header">Electrical Circuitry Skills</div>
                 <div className="ee-card-header-description">
-                  Developed through working with breadboards, soldering tools, multimeters and power supplies
+                  Developed through working with breadboards, soldering tools, multimeters and power supplies.
                 </div>
                 <div className="ee-card-description">
                   Technical Skill
@@ -209,7 +209,7 @@ function Skills() {
               <div className="card-info">
                 <div className="ee-card-header">Understading of Desktop Components</div>
                 <div className="ee-card-header-description">
-                  Developed through building and repairing Desktop PC's
+                  Developed through building and repairing Desktop PC's.
                 </div>
                 <div className="ee-card-description">
                  Technical Skill

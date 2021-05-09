@@ -20,8 +20,7 @@ function Home() {
       <h3 id="home-header">Hello, I'm Gaurav!</h3>
       <div id="home-header-introduction">
         I'm an electrical engineering student from the University of Waterloo
-        and I am excited and egar to learn! I am passionate about Javascript web
-        development and computer components.
+        and I am excited and egar to learn! Please feel free to explore my portfolio.
       </div>
       <div id="header-bottom-border"></div>
       {/* END OF HEADER */}
@@ -185,8 +184,7 @@ function Home() {
                     PC Building and Desktop Solutions
                   </div>
                   <div className="interest-header-description">
-                    I enjoy tinkering and constructing desktop PC's and I have
-                    experience in computer repair and maintainance
+                   From Lego's to computer components, I have always enjoyed engineering machines
                   </div>
                 </div>
               </div>
@@ -196,7 +194,7 @@ function Home() {
                 <div>
                   <div className="interest-header">Traveling</div>
                   <div className="interest-header-description">
-                    Exploring new cultures and land marks has always been a
+                    Exploring new places and cultures has always been a
                     great passion of mine!
                   </div>
                 </div>
@@ -218,7 +216,7 @@ function Home() {
                   <div>
                     <div className="interest-header">Mathematics</div>
                     <div className="interest-header-description">
-                      Problem solving in Mathematics is always a blast!
+                    Mathematical problems are like mysteries that require critical thinking and reasoning to solve.s
                     </div>
                   </div>
                 </div>
@@ -232,8 +230,8 @@ function Home() {
                   <div>
                     <div className="interest-header">Skateboarding</div>
                     <div className="interest-header-description">
-                      I've recently developed a love for skateboarding and it is
-                      now my favoured form of travel!
+                      I have recently developed a love for skateboarding and it is
+                      now my favoured form of transportation!
                     </div>
                   </div>
                 </div>

@@ -106,7 +106,7 @@ function SideInfo({state,handleSideInfoState,data}) {
             <img alt="image" className="language-logo" src={javascriptLogo}></img>
             <div>
               <div className="programming-language-header">Javascript</div>
-                <div className="programming-language-description">Worked with Libraries such as Discord.js and React</div>
+                <div className="programming-language-description">Worked with libraries such as Discord.js and React.</div>
               </div>
           </div>
 
@@ -114,7 +114,7 @@ function SideInfo({state,handleSideInfoState,data}) {
             <img alt="image" className="language-logo" src={htmlLogo}></img>
             <div>
               <div className="programming-language-header">HTML</div>
-                <div className="programming-language-description">Developed through React Web Development</div>
+                <div className="programming-language-description">Developed through React web development.</div>
               </div>
           </div>
 
@@ -122,7 +122,7 @@ function SideInfo({state,handleSideInfoState,data}) {
             <img  alt="image" className="language-logo" id="cpp-logo"src={cppLogo}></img>
             <div>
               <div className="programming-language-header">C++</div>
-                <div className="programming-language-description">Taught through university level courses and personal projects</div>
+                <div className="programming-language-description">Taught through university level courses and personal projects.</div>
               </div>
           </div>
         
