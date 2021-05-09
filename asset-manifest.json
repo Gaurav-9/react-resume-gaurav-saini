@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-resume-gaurav-saini/static/css/main.be617749.chunk.css",
-    "main.js": "/react-resume-gaurav-saini/static/js/main.d23c1bf2.chunk.js",
-    "main.js.map": "/react-resume-gaurav-saini/static/js/main.d23c1bf2.chunk.js.map",
+    "main.css": "/react-resume-gaurav-saini/static/css/main.69f0158d.chunk.css",
+    "main.js": "/react-resume-gaurav-saini/static/js/main.bc7167ba.chunk.js",
+    "main.js.map": "/react-resume-gaurav-saini/static/js/main.bc7167ba.chunk.js.map",
     "runtime-main.js": "/react-resume-gaurav-saini/static/js/runtime-main.5b4238a5.js",
     "runtime-main.js.map": "/react-resume-gaurav-saini/static/js/runtime-main.5b4238a5.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/react-resume-gaurav-saini/static/css/2.4c97ca4f.chunk.css",
@@ -10,11 +10,11 @@
     "static/js/2.fb80f74a.chunk.js.map": "/react-resume-gaurav-saini/static/js/2.fb80f74a.chunk.js.map",
     "index.html": "/react-resume-gaurav-saini/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/react-resume-gaurav-saini/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.be617749.chunk.css.map": "/react-resume-gaurav-saini/static/css/main.be617749.chunk.css.map",
+    "static/css/main.69f0158d.chunk.css.map": "/react-resume-gaurav-saini/static/css/main.69f0158d.chunk.css.map",
     "static/js/2.fb80f74a.chunk.js.LICENSE.txt": "/react-resume-gaurav-saini/static/js/2.fb80f74a.chunk.js.LICENSE.txt",
     "static/media/534-5342172_c-language-course-c-logo.0a81196c.png": "/react-resume-gaurav-saini/static/media/534-5342172_c-language-course-c-logo.0a81196c.png",
     "static/media/964418-middle.2f3c6b76.png": "/react-resume-gaurav-saini/static/media/964418-middle.2f3c6b76.png",
-    "static/media/C++-595b40b75ba036ed117d5b19.dc26fbc8.svg": "/react-resume-gaurav-saini/static/media/C++-595b40b75ba036ed117d5b19.dc26fbc8.svg",
+    "static/media/C++-595b40b75ba036ed117d5b19.86964181.svg": "/react-resume-gaurav-saini/static/media/C++-595b40b75ba036ed117d5b19.86964181.svg",
     "static/media/GauravSaini.fe189d79.pdf": "/react-resume-gaurav-saini/static/media/GauravSaini.fe189d79.pdf",
     "static/media/MeliodasPFP.907162cc.png": "/react-resume-gaurav-saini/static/media/MeliodasPFP.907162cc.png",
     "static/media/address-card-regular.514b3474.svg": "/react-resume-gaurav-saini/static/media/address-card-regular.514b3474.svg",
@@ -49,7 +49,7 @@
     "static/js/runtime-main.5b4238a5.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.fb80f74a.chunk.js",
-    "static/css/main.be617749.chunk.css",
-    "static/js/main.d23c1bf2.chunk.js"
+    "static/css/main.69f0158d.chunk.css",
+    "static/js/main.bc7167ba.chunk.js"
   ]
 }
