@@ -188,7 +188,7 @@ function Home() {
                   </div>
                   <div className="interest-header-description">
                     From Lego's to computer components, I have always enjoyed
-                    engineering machines
+                    engineering machines.
                   </div>
                 </div>
               </div>
@@ -225,7 +225,7 @@ function Home() {
                   <div className="interest-header">Mathematics</div>
                   <div className="interest-header-description">
                     Mathematical problems are like mysteries that require
-                    critical thinking and reasoning to solve.s
+                    critical thinking and reasoning to solve.
                   </div>
                 </div>
               </div>
