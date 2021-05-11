@@ -22,35 +22,26 @@
   /* border: 1px solid black; */
 }
 
-
-@media screen and (max-width:1500px)
-{
-  #interest-card-holder-row{
+@media screen and (max-width: 1500px) {
+  #interest-card-holder-row {
     justify-content: space-around;
-    width:1000px; 
+    width: 1000px;
   }
-
- 
 }
-@media screen and (max-width:1200px)
-{
-  #interest-card-holder-row{
+@media screen and (max-width: 1200px) {
+  #interest-card-holder-row {
     flex-direction: column;
   }
 
-  #interest-bar-design{
+  #interest-bar-design {
     display: none;
   }
-  
 }
-
-
-
 
 #interest-pill {
   display: flex;
   width: 400px;
-  border: thin solid rgb(136, 136, 136); 
+  border: thin solid rgb(136, 136, 136);
   align-items: center;
   justify-content: center;
   background-color: rgb(255, 255, 255);
@@ -59,15 +50,11 @@
   margin-bottom: 40px;
   color: white;
   box-shadow: rgb(243, 241, 241) 1px 1px 1px 1px;
- 
 }
-#interest-pill:hover{
-    /* border: 1px solid black; */
-    transition: .9s;
+#interest-pill:hover {
+  /* border: 1px solid black; */
+  transition: 0.9s;
 }
-
-
-
 
 .interest-logo {
   height: 43px;
@@ -78,7 +65,7 @@
 .interest-header {
   font-size: 12px;
   font-weight: 700;
-  width: fit-content; 
+  width: fit-content;
   color: black;
   border-bottom: rgb(233, 126, 27) 1px solid;
   padding-bottom: 1px;
@@ -91,19 +78,15 @@
   height: 36px;
   overflow: hidden;
   white-space: inherit;
-  color:black; 
+  color: black;
   padding-right: 4px;
 }
 
 #interest-bar-design {
   height: 90%;
-  border: 1px solid rgb(233, 126, 27); 
+  border: 1px solid rgb(233, 126, 27);
   margin-right: 20px;
 }
-
-
-
-
 
 #skate-board {
   width: 80px;
@@ -112,30 +95,23 @@
   margin-right: 3px;
 }
 
-#plane-logo{
-width: 75px;
-height: 39px;
-
+#plane-logo {
+  width: 75px;
+  height: 39px;
 }
 
-
-
-
-@media screen and (max-width:450px)
-{
+@media screen and (max-width: 450px) {
   #interest-card-holder-row {
-   margin-left: -40px;
-   border: solid 1px black;
-   width:200px; 
+    margin-left: -40px;
+    border: solid 1px black;
+    width: 200px;
   }
-
 
   #interest-pill {
-    width:300px; 
+    width: 300px;
   }
 
-  #calulator-logo  {
-   display:none; 
-  
+  #calulator-logo {
+    display: none;
   }
 }

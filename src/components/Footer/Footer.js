@@ -3,28 +3,41 @@ import "./Footer.css";
 import githubLogo from "./Images/github-brands.svg";
 import linkedinLogo from "./Images/linkedin-brands.svg";
 import twitterLogo from "./Images/twitter-brands.svg";
-import reactLogo from "./Images/reactjs-icon.svg"
-import {Link} from "react-router-dom"
+import reactLogo from "./Images/reactjs-icon.svg";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <div id="footer-main-div">
-
-
       <div id="navigate-div">
         <div id="navigation-footer-header">Navigation</div>
         <ul id="navigation-footer-ul">
-          <li className="navigation-footer-li"><Link className="footer-navLinks" to="/">Home</Link></li>
-          <li className="navigation-footer-li"><Link className="footer-navLinks" to="/skills">Skills</Link></li>
-          <li className="navigation-footer-li"><Link className="footer-navLinks" to="/personal-projects">Personal Projects</Link></li>
-          <li className="navigation-footer-li"><Link className="footer-navLinks" to="/contact">Contact</Link></li>
+          <li className="navigation-footer-li">
+            <Link className="footer-navLinks" to="/">
+              Home
+            </Link>
+          </li>
+          <li className="navigation-footer-li">
+            <Link className="footer-navLinks" to="/skills">
+              Skills
+            </Link>
+          </li>
+          <li className="navigation-footer-li">
+            <Link className="footer-navLinks" to="/personal-projects">
+              Personal Projects
+            </Link>
+          </li>
+          <li className="navigation-footer-li">
+            <Link className="footer-navLinks" to="/contact">
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
 
-        {/* START OF SOCIAL CIRCLES */}
+      {/* START OF SOCIAL CIRCLES */}
       <div id="follow-me-sign-div">
-
-          <div id="follow-me-sign-div-header">Social Media</div>
+        <div id="follow-me-sign-div-header">Social Media</div>
         <ul id="social-circles">
           <li className="social-circle">
             <a href="https://github.com/Gaurav-9">
@@ -53,9 +66,11 @@ function Footer() {
           </li>
         </ul>
 
-        <div id="resume-name-signature">Created By @Gaurav Saini<br></br> Powered by React <img alt="image" id="react-logo" src={reactLogo}></img></div>
+        <div id="resume-name-signature">
+          Created By @Gaurav Saini<br></br> Powered by React{" "}
+          <img alt="image" id="react-logo" src={reactLogo}></img>
+        </div>
       </div>
-
     </div>
   );
 }

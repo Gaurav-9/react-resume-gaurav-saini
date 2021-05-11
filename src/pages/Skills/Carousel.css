@@ -1,61 +1,53 @@
-#carousel-component{
-    background-color: rgb(252, 151, 57);
-    height:475px; 
-    width: 65%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-     justify-content: space-between;
-    border: 1px solid black; 
+#carousel-component {
+  background-color: rgb(252, 151, 57);
+  height: 475px;
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  justify-content: space-between;
+  border: 1px solid black;
 }
 
-#carousel-holder-div
-{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+#carousel-holder-div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
-.image-title-div
-{
-    display:flex; 
-    /* border:1px solid black;  */
-    align-items: center;
-    justify-content: center;
-   
+.image-title-div {
+  display: flex;
+  /* border:1px solid black;  */
+  align-items: center;
+  justify-content: center;
 }
 
-.carousel-card-title
-{
-/* margin-top: 110px; */
- font-family: "Mukta", sans-serif;
- margin-top: 50px;
- font-size: 50px;
- color: white;
- font-weight: 500;
- text-align: center;
- height:50px; 
+.carousel-card-title {
+  /* margin-top: 110px; */
+  font-family: "Mukta", sans-serif;
+  margin-top: 50px;
+  font-size: 50px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  height: 50px;
 }
 
-.carousel-card-image
-{
-    width:200px; 
-    margin-bottom: 25px;
+.carousel-card-image {
+  width: 200px;
+  margin-bottom: 25px;
 }
 
-.carousel-card-description
-{
-    margin-top: 40px;
-    font-size: 15px;
-    text-align: center;
-    height:12px; 
+.carousel-card-description {
+  margin-top: 40px;
+  font-size: 15px;
+  text-align: center;
+  height: 12px;
 }
 
-@media screen and (max-width:500px){
-    .carousel-card-description
-    {
-        margin-top:-5px; 
-    }
-    
-    }
+@media screen and (max-width: 500px) {
+  .carousel-card-description {
+    margin-top: -5px;
+  }
+}

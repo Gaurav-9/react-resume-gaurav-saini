@@ -1,185 +1,157 @@
-#main-skills-div
-{
-    width: 100%;
-    height: 100%;
-    padding: 36px 60px 24px;
-    border: 1px solid black;
+#main-skills-div {
+  width: 100%;
+  height: 100%;
+  padding: 36px 60px 24px;
+  border: 1px solid black;
 }
 
-
-
-
-#img-description-holder{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; 
-    width: 535px;
-    margin-top: 0px;
+#img-description-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 535px;
+  margin-top: 0px;
 }
 
-#learn-more-button
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; 
-    background-color: rgb(233, 126, 27);
-    width: 275px;
-    height:35px;
-    margin-top: 40px;
-    color: white;
-    padding: 10px;
-    border-radius: 15px;
-    border: none;
-    text-decoration: none;
+#learn-more-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(233, 126, 27);
+  width: 275px;
+  height: 35px;
+  margin-top: 40px;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  text-decoration: none;
 }
 
-#see-more-button:hover
-{
-    text-decoration: none;
+#see-more-button:hover {
+  text-decoration: none;
 }
 
-#learn-more-text:hover
-{
-    text-decoration: none;
-    border:none; 
-}
-    
-
-
-#eye-logo{
-    height:18px; 
-    margin-bottom: 2px;
-    margin-right: 10px;
+#learn-more-text:hover {
+  text-decoration: none;
+  border: none;
 }
 
-#carousel-card-description-bar{
-    border: solid 1px rgb(233, 126, 27); 
-    margin-right: 12px;
-    height:20px; 
-   
+#eye-logo {
+  height: 18px;
+  margin-bottom: 2px;
+  margin-right: 10px;
 }
 
-@media screen and (max-width:1220px)
-{
-    .carousel-card-description
-    {
-        display:none; 
-    }   
+#carousel-card-description-bar {
+  border: solid 1px rgb(233, 126, 27);
+  margin-right: 12px;
+  height: 20px;
 }
 
-#programming-skills-header
-{
-    font-family: "Mukta", sans-serif;
-    text-transform: uppercase;
-    font-weight: 550;
-    font-size: 25px;
+@media screen and (max-width: 1220px) {
+  .carousel-card-description {
+    display: none;
+  }
+}
+
+#programming-skills-header {
+  font-family: "Mukta", sans-serif;
+  text-transform: uppercase;
+  font-weight: 550;
+  font-size: 25px;
 }
 
 #header-bottom-border {
-    margin-top: 35px;
-    margin-bottom: 60px;
-    border: solid 1px rgb(233, 126, 27);
-    opacity: 0.4;
-    width: 100%;
-  }
+  margin-top: 35px;
+  margin-bottom: 60px;
+  border: solid 1px rgb(233, 126, 27);
+  opacity: 0.4;
+  width: 100%;
+}
 
+#skills-logo-id {
+  height: 325px;
+  margin-top: 130px;
+  /* margin-right: 400px; */
+  /* margin-left: 400px; */
+  transition: 0.9s;
+}
 
-  #skills-logo-id{
-      height:325px; 
-      margin-top: 130px;
-      /* margin-right: 400px; */
-      /* margin-left: 400px; */
-      transition: .9s; 
-  }
+#skills-logo-id:hover {
+  transform: rotate(-15deg) scale(1.08);
+}
 
-  #skills-logo-id:hover
-  {
-    transform: rotate(-15deg) scale(1.08); 
-  }
+#header-bottom-border2 {
+  margin-top: 60px;
+  border: solid 1px rgb(233, 126, 27);
+  opacity: 0.4;
+  width: 100%;
+  margin-bottom: 80px;
+}
 
-
-#header-bottom-border2 
-{
-    margin-top: 60px; 
-    border: solid 1px rgb(233, 126, 27);
-    opacity: 0.4;
-    width: 100%;
-    margin-bottom: 80px;
-  }
-
-
-#other-skills-header
-{
-    font-family: "Mukta", sans-serif;
-    text-transform: uppercase;
-    font-weight: 550;
-    font-size: 25px;
-    margin-bottom: 20px;
+#other-skills-header {
+  font-family: "Mukta", sans-serif;
+  text-transform: uppercase;
+  font-weight: 550;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 
 .other-skills-ul {
-    list-style: none;
-    margin-top: 60px;
-    padding-left: 40px;
-    display: flex;
-  }
-
-
-  
-  .other-skills-li {
-    display: flex;
-    width: 100%;
-    /* border: 1px black solid; */
-    margin-bottom: 40px;
-  }
-
-  #communication-skill-logo{
-      height: 60px;
-  }
-
-  #bottom-row-other-skills
-  {
-      margin-top: 60px;
-      margin-bottom: 20px;
-      display: flex;
-      width: 100%;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      /* border: 1px solid black; */
-  }
-
-  #buttom-row-skill-override{
-
-      width:50%; 
-  }
-
-  #carousel-button-overide{
-      background-color: rgb(233, 126, 27); 
-  }
-
-  @media screen and (max-width:1480px){
-    .other-skills-ul{
-        flex-direction: column; 
-    }
-    #bottom-row-other-skills{
-        justify-content: start;
-        margin-top: -20px; 
-        margin-left: 40px;
-    }
-
-   
+  list-style: none;
+  margin-top: 60px;
+  padding-left: 40px;
+  display: flex;
 }
 
-@media screen and (max-width:830px){
-    #javascript-carousel-logo{
-        width:175px; 
-    }
-    #javascript-title{
-        margin-top: 25px;
-    }
- 
+.other-skills-li {
+  display: flex;
+  width: 100%;
+  /* border: 1px black solid; */
+  margin-bottom: 40px;
 }
 
+#communication-skill-logo {
+  height: 60px;
+}
 
+#bottom-row-other-skills {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#buttom-row-skill-override {
+  width: 50%;
+}
+
+#carousel-button-overide {
+  background-color: rgb(233, 126, 27);
+}
+
+@media screen and (max-width: 1480px) {
+  .other-skills-ul {
+    flex-direction: column;
+  }
+  #bottom-row-other-skills {
+    justify-content: start;
+    margin-top: -20px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  #javascript-carousel-logo {
+    width: 175px;
+  }
+  #javascript-title {
+    margin-top: 25px;
+  }
+}

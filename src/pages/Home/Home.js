@@ -20,7 +20,8 @@ function Home() {
       <h3 id="home-header">Hello, I'm Gaurav!</h3>
       <div id="home-header-introduction">
         I'm an electrical engineering student from the University of Waterloo
-        and I am excited and egar to learn! Please feel free to explore my portfolio.
+        and I am excited and egar to learn! Please feel free to explore my
+        portfolio.
       </div>
       <div id="header-bottom-border"></div>
       {/* END OF HEADER */}
@@ -71,16 +72,18 @@ function Home() {
                 <div className="bottom-border"></div>
               </div>
               <div>
-                <a href="https://schools.peelschools.org/sec/northpark/Pages/default.aspx">
-                  <img alt="image" className="education-logo" id="npss-logo" src={highschoolLogo}></img>
-                </a>
+                <img
+                  alt="image"
+                  className="education-logo"
+                  id="npss-logo"
+                  src={highschoolLogo}
+                ></img>
               </div>
             </li>
           </ul>
         </div>{" "}
         {/*END OF EDUCATION HOLDER*/}
         <div className="experience-education-div">
-         
           {/*EXPERIENCE HOLDER*/}
           <div className="experience-education-header">Work Experience</div>
           <ul className="experience-education-ul">
@@ -119,7 +122,7 @@ function Home() {
                 <div className="date-pill">2016-2020</div>
                 <div className="ee-card-header">Robotics Club</div>
                 <div className="ee-card-header-description">
-                   Robotics Engineering and Competition
+                  Robotics Engineering and Competition
                 </div>
                 <div className="ee-card-description">Club Executive</div>
                 <div className="bottom-border"></div>
@@ -170,74 +173,80 @@ function Home() {
         {" "}
         {/*START OF INTERESTS*/}
         <div id="interests-heading">Interests and Hobbies</div>
-
-
         <div id="interest-card-holder-row">
-
           <div style={{ display: "flex" }}>
             <div id="interest-bar-design"></div>
             <div>
               <div id="interest-pill">
-                <img alt="image" className="interest-logo" src={interest1}></img>
+                <img
+                  alt="image"
+                  className="interest-logo"
+                  src={interest1}
+                ></img>
                 <div>
                   <div className="interest-header">
                     PC Building and Desktop Solutions
                   </div>
                   <div className="interest-header-description">
-                   From Lego's to computer components, I have always enjoyed engineering machines
+                    From Lego's to computer components, I have always enjoyed
+                    engineering machines
                   </div>
                 </div>
               </div>
 
               <div id="interest-pill">
-                <img alt="image" className="interest-logo" id="plane-logo" src={interest2}></img>
+                <img
+                  alt="image"
+                  className="interest-logo"
+                  id="plane-logo"
+                  src={interest2}
+                ></img>
                 <div>
                   <div className="interest-header">Traveling</div>
                   <div className="interest-header-description">
-                    Exploring new places and cultures has always been a
-                    great passion of mine!
+                    Exploring new places and cultures has always been a great
+                    passion of mine!
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          
-            <div style={{ display: "flex" }}>
-              <div id="interest-bar-design"></div>
-              <div>
-                <div id="interest-pill">
-                  <img
-                    alt="image"
-                    className="interest-logo"
-                    id="calulator-logo"
-                    src={interest3}
-                  ></img>
-                  <div>
-                    <div className="interest-header">Mathematics</div>
-                    <div className="interest-header-description">
-                    Mathematical problems are like mysteries that require critical thinking and reasoning to solve.s
-                    </div>
+          <div style={{ display: "flex" }}>
+            <div id="interest-bar-design"></div>
+            <div>
+              <div id="interest-pill">
+                <img
+                  alt="image"
+                  className="interest-logo"
+                  id="calulator-logo"
+                  src={interest3}
+                ></img>
+                <div>
+                  <div className="interest-header">Mathematics</div>
+                  <div className="interest-header-description">
+                    Mathematical problems are like mysteries that require
+                    critical thinking and reasoning to solve.s
                   </div>
                 </div>
-                <div id="interest-pill">
-                  <img
-                    alt="image"
-                    className="interest-logo"
-                    id="skate-board"
-                    src={interest4}
-                  ></img>
-                  <div>
-                    <div className="interest-header">Skateboarding</div>
-                    <div className="interest-header-description">
-                      I have recently developed a love for skateboarding and it is
-                      now my favoured form of transportation!
-                    </div>
+              </div>
+              <div id="interest-pill">
+                <img
+                  alt="image"
+                  className="interest-logo"
+                  id="skate-board"
+                  src={interest4}
+                ></img>
+                <div>
+                  <div className="interest-header">Skateboarding</div>
+                  <div className="interest-header-description">
+                    I have recently developed a love for skateboarding and it is
+                    now my favoured form of transportation!
                   </div>
                 </div>
               </div>
             </div>
-          
+          </div>
         </div>
       </div>
     </div>

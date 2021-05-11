@@ -1,136 +1,121 @@
-
-
-#project-li{
-    display: block;
-    width:75%; 
-    margin-bottom: 95px;
-    margin-top: 30px;
+#project-li {
+  display: block;
+  width: 75%;
+  margin-bottom: 95px;
+  margin-top: 30px;
 }
 
-#project-div
-{
-    display:flex; 
-    flex-direction: row; 
-    margin-bottom: 27px;
-    justify-content: space-between;
+#project-div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 27px;
+  justify-content: space-between;
 }
 
-#project-info{
-    margin-top: 25px;
+#project-info {
+  margin-top: 25px;
 }
 
-
-
-#date-box{
-    background-color: rgb(233, 126, 27);
-    color: white;
-    padding: 1px;
-    font-family: "Mukta", sans-serif;
-    font-size: 13px;
-    width:65px; 
-    text-align: center;
-    border-radius: 4px;
+#date-box {
+  background-color: rgb(233, 126, 27);
+  color: white;
+  padding: 1px;
+  font-family: "Mukta", sans-serif;
+  font-size: 13px;
+  width: 65px;
+  text-align: center;
+  border-radius: 4px;
 }
 
-#bottom-bar-pp-design{
-    width:100%; 
-    border: 1px solid rgb(107, 107, 107);
+#bottom-bar-pp-design {
+  width: 100%;
+  border: 1px solid rgb(107, 107, 107);
 }
 
-#project-title
-{
-    margin-top: 7px;
-    font-family: "Mukta", sans-serif;
-    font-weight: 600;
-    font-size: 14px;
+#project-title {
+  margin-top: 7px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
 }
 
-#languages-div{
-    font-style: italic;
-    font-family: "Mukta", sans-serif;
-    font-size: 12px;
+#languages-div {
+  font-style: italic;
+  font-family: "Mukta", sans-serif;
+  font-size: 12px;
 }
 
-#project-image{
-    width: 85px;
-    margin-bottom: 30px;
+#project-image {
+  width: 85px;
+  margin-bottom: 30px;
 }
 
-
-
-#img-description-div{
-    display:flex; 
+#img-description-div {
+  display: flex;
 }
 
-#project-description{
-    /* border: 1px solid black; */
-    /* margin-left: 40px; */
-    width:240px; 
-    font-family: "Mukta", sans-serif;
-    font-size: 13px;
-    background-color: rgb(240 239 239);
-    border-radius: 15px;
-    padding: 12px;
-    text-align: center;
-    height:100px; 
+#project-description {
+  /* border: 1px solid black; */
+  /* margin-left: 40px; */
+  width: 240px;
+  font-family: "Mukta", sans-serif;
+  font-size: 13px;
+  background-color: rgb(240 239 239);
+  border-radius: 15px;
+  padding: 12px;
+  text-align: center;
+  height: auto;
 }
 
-#githubsrc{
-    margin-top: 7px;
+#githubsrc {
+  margin-top: 7px;
 }
 
-#see-live-button
-{
-    background-color: rgb(233, 126, 27);
-    width:100px; 
-    text-align: center;
-    margin-top: 10px;
-    border-radius: 5px;
-    color: white;
-    padding: 3px;
+#see-live-button {
+  background-color: rgb(233, 126, 27);
+  width: 100px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: white;
+  padding: 3px;
 }
 
-#description-see-more-holder
-{
-    margin-left: 35px;
-    display: flex; 
+#description-see-more-holder {
+  margin-left: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+@media screen and (max-width: 1100px) {
+  #img-description-div {
+    /* margin-top: 25px; */
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* border: 1px solid black; */
-   
-}
+    margin-left: 0px;
+  }
 
-@media screen and (max-width:1100px)
-{
-    #img-description-div
-    {
-        /* margin-top: 25px; */
-        flex-direction: column;
-        margin-left: 0px; 
-    }
+  #project-div {
+    flex-direction: column;
+  }
 
-    #project-div{
-        flex-direction: column;
-    }
+  #project-li {
+    margin-top: -50px;
+  }
 
-   
+  #project-info {
+    margin-bottom: 20px;
+  }
 
-    #project-li{
-        margin-top: -50px;
-    }
+  #description-see-more-holder {
+    align-items: flex-start;
+    justify-content: left;
+    margin-left: -10px;
+  }
 
-    #project-info{
-        margin-bottom: 20px;
-    }
-
-    #description-see-more-holder{
-        align-items: flex-start;
-        justify-content: left;
-        margin-left: -10px;
-    }
-
-    #project-image{
-        display:none; 
-    }
+  #project-image {
+    display: none;
+  }
 }

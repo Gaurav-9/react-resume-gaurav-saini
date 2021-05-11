@@ -1,23 +1,19 @@
-
-
 .side-info-main {
   background-color: rgb(240 239 239);
-  display:flex; 
-  flex-direction:column; 
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  height: 100%; 
+  height: 100%;
   /* border:green 3px solid;   */
-  width:240px; 
-  overflow:hidden; 
-  transition: width .4s;
-
+  width: 240px;
+  overflow: hidden;
+  transition: width 0.4s;
 }
 
-@media screen and (max-width:720px){
-  .side-info-main{
+@media screen and (max-width: 720px) {
+  .side-info-main {
     display: none;
   }
-  
 }
 
 #pfp {
@@ -25,13 +21,12 @@
   border-radius: 100px;
   height: 70px;
   width: 70px;
-  
 }
 #pfpdiv {
   position: relative;
   margin-top: 15px;
-  display:flex; 
-  overflow:hidden;
+  display: flex;
+  overflow: hidden;
 }
 #name {
   margin-top: 2px;
@@ -39,10 +34,10 @@
   font-weight: 900px;
   font-size: 19px;
   color: black;
-  overflow:hidden;
+  overflow: hidden;
   /* border: solid black 1px; */
-  height:25px; 
-  width:120px; 
+  height: 25px;
+  width: 120px;
 }
 
 #ocupation-pill {
@@ -59,25 +54,24 @@
   width: 210px;
   margin-top: 10px;
   box-shadow: 4px 3px 3px 0px rgba(0, 0, 0, 0.1);
-  overflow:hidden;
+  overflow: hidden;
 }
 
 #social-circles {
   display: flex;
-  flex-direction: row-reverse; 
-  justify-content: center; 
-  width:100%; 
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 100%;
   /* border:1px black solid;  */
   list-style: none;
-  padding:0;
-  margin-top:10px; 
+  padding: 0;
+  margin-top: 10px;
 }
 .social-circle {
   position: relative;
 }
 
-.circle-fill{
-    
+.circle-fill {
   display: inline-block;
   font-size: 12px;
   line-height: 1;
@@ -89,213 +83,182 @@
   height: 28px;
   border-radius: 50%;
   margin-right: 4px;
-  border: solid 1px rgb(107, 107, 107) ;
+  border: solid 1px rgb(107, 107, 107);
 }
 
-.all-logos
-{
-  height:20px; 
-  width:20px; 
-  margin-left:-5px;
-  margin-top:-4px; 
+.all-logos {
+  height: 20px;
+  width: 20px;
+  margin-left: -5px;
+  margin-top: -4px;
 }
 
-.circle-fill:hover{
+.circle-fill:hover {
   border: solid 1px rgb(233, 126, 27);
-  transition: .5s;
+  transition: 0.5s;
 }
 
-#linkedin-logo
-{
-  
-  height:18px; 
-  width:20px; 
-  margin-left:-5px;
-  margin-top:-4px; 
+#linkedin-logo {
+  height: 18px;
+  width: 20px;
+  margin-left: -5px;
+  margin-top: -4px;
 }
 
-#contact-info
-{
+#contact-info {
   /* border:1px black solid;  */
   margin-top: 0px;
   font-size: 16px;
   white-space: nowrap;
   color: #000000;
-  display:flex; 
+  display: flex;
   justify-content: center;
-  height:25px; 
+  height: 25px;
   overflow: hidden;
 }
 
-#contact-logo{
+#contact-logo {
   margin-top: 2px;
-  display:flex; 
-  position:relative; 
-  height:20px; 
-  width:20px; 
+  display: flex;
+  position: relative;
+  height: 20px;
+  width: 20px;
   /* border:2px rgb(199, 28, 28) solid;   */
 }
 
-#contact-logo-div
-{
+#contact-logo-div {
   /* border:1px blue solid;   */
   margin-right: 12px;
 }
 
-#contact-info-textbox
-{
+#contact-info-textbox {
   margin-top: 17px;
-  background-color: white; 
+  background-color: white;
   height: 150px;
-  width:220px; 
+  width: 220px;
   /* margin-left: 16px; */
   border-radius: 9%;
   font-size: 14px;
   box-shadow: 3px 2px 3px 1px rgba(0, 0, 0, 0.1);
   /* border:thin solid rgb(250, 201, 156); */
-  border:thin solid rgb(68, 68, 68);
+  border: thin solid rgb(68, 68, 68);
 }
 
-
-#contact-info-ul{
+#contact-info-ul {
   list-style: none;
   margin-left: -25px;
-  
 }
-.contact-info-li
-{
+.contact-info-li {
   margin-top: 5px;
   font-family: Mukta, sans-serif;
 }
 
-#download-button{
-  display:flex; 
+#download-button {
+  display: flex;
   background-color: rgb(233, 126, 27);
   color: white;
-  margin-top:20px; 
+  margin-top: 20px;
   /* margin-left: 25px; */
   width: 220px;
   font-family: inherit;
   font-weight: 510;
-  padding:5px; 
+  padding: 5px;
   border-radius: 15px;
   margin-top: 25px;
 }
-#download-button-logo
-{
-  height:17px;
+#download-button-logo {
+  height: 17px;
   width: 17px;
   margin-right: 10px;
   margin-left: 9px;
   margin-top: 2px;
 }
 
-#download-button-source:hover
-{
+#download-button-source:hover {
   text-decoration: none;
 }
 
-#toggle-side-info-button
-{
+#toggle-side-info-button {
   background-color: none;
   border: none;
   margin-bottom: 13px;
 }
-#toggle-side-info-div
-{
+#toggle-side-info-div {
   width: 100%;
   display: flex;
-  justify-content:flex-end; 
+  justify-content: flex-end;
   /* border: 1px black solid; */
 }
 
-#toggle-side-info-cicle
-{
-  height:32px;
+#toggle-side-info-cicle {
+  height: 32px;
   width: 32px;
-  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.1); 
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
-#toggle-sideinfo-button
-{
-
-  height:18px; 
-  width:20px; 
+#toggle-sideinfo-button {
+  height: 18px;
+  width: 20px;
   margin-left: -3px;
-  margin-top:-2px; 
-  
+  margin-top: -2px;
 }
 
-@media screen and (max-width:720px){
-  #toggle-side-info-cicle{
-    display:none; 
+@media screen and (max-width: 720px) {
+  #toggle-side-info-cicle {
+    display: none;
   }
 }
-  
 
-
-
-
-#programming-languages-header
-{
+#programming-languages-header {
   /* border:1px black solid;  */
 
   margin-top: 25px;
   white-space: nowrap;
   color: #000000;
-  display:flex; 
+  display: flex;
   justify-content: center;
-  height:25px; 
+  height: 25px;
   overflow: hidden;
   font-size: 16px;
 }
 
-
- .language-logo{ 
+.language-logo {
   height: 43px;
-  margin-left:15px; 
+  margin-left: 15px;
   margin-right: 14px;
- }
+}
 
- #programming-language-pill
- {
+#programming-language-pill {
   margin-top: 20px;
-  display:flex; 
-  width: 240px; 
-  border:thin solid rgb(68, 68, 68);
+  display: flex;
+  width: 240px;
+  border: thin solid rgb(68, 68, 68);
   align-items: center;
   justify-content: center;
   background-color: white;
   border-radius: 15px;
   height: 64px;
- }
+}
 
-
-
- #programming-language-pill:hover
- {
+#programming-language-pill:hover {
   border: 1px solid rgb(233, 126, 27);
-  transition: .9s;
-  cursor: context-menu; 
+  transition: 0.9s;
+  cursor: context-menu;
+}
 
- }
-
-
- .programming-language-header
- {
+.programming-language-header {
   font-size: 14px;
   font-weight: 700;
-  
- }
- .programming-language-description{
-   font-size: 12px;
-   /* border:1px solid black;  */
-   height: 36px;  
-   overflow: hidden;
-   white-space:inherit; 
- }
+}
+.programming-language-description {
+  font-size: 12px;
+  /* border:1px solid black;  */
+  height: 36px;
+  overflow: hidden;
+  white-space: inherit;
+}
 
- #cpp-logo{
-   margin-left: 10px;
-   margin-right: 6px;
- }
+#cpp-logo {
+  margin-left: 10px;
+  margin-right: 6px;
+}
