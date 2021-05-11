@@ -25,10 +25,10 @@
 @media screen and (max-width: 1500px) {
   #interest-card-holder-row {
     justify-content: space-around;
-    width: 1000px;
+    width: 90%;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1410px) {
   #interest-card-holder-row {
     flex-direction: column;
   }

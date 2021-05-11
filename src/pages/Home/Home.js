@@ -170,7 +170,6 @@ function Home() {
       </div>
       <div id="bottom-border2"></div>
       <div id="interests-holder">
-        {" "}
         {/*START OF INTERESTS*/}
         <div id="interests-heading">Interests and Hobbies</div>
         <div id="interest-card-holder-row">
