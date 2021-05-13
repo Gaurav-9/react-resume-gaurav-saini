@@ -73,12 +73,16 @@ function PersonalProjects() {
 
   return (
     <div id="personal-projects-div">
-      <h1 id="contact-page-header">Personal Projects</h1>
-      <div id="home-header-introduction">
-        Have a look at some of my personal programming projects! I strive to
-        increase the complexity and creativity of each new creation.
+      <div id="personal-projects-title-description">
+        <h1 id="contact-page-header">Personal Projects</h1>
+
+        <div id="home-header-introduction">
+          Have a look at some of my personal programming projects! I strive to
+          increase the complexity and creativity of each new creation.
+        </div>
+
+        <div id="header-bottom-border"></div>
       </div>
-      <div id="header-bottom-border"></div>
 
       <div className="projects-holder">
         <ul id="projects-ul">{listItemsDisplayed}</ul>

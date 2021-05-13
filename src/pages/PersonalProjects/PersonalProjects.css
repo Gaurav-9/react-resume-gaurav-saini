@@ -4,6 +4,9 @@
   padding: 36px 30px 24px;
   height: 100%;
 }
+#personal-projects-title-description {
+  padding-left: 36px;
+}
 
 #projects-ul {
   margin-top: 50px;
