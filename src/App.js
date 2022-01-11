@@ -40,7 +40,7 @@ const App = () => {
       setSideInfoState({
         state: false,
         sideInfoStyle: {
-          width: "1px",
+          width: "0px",
         },
         innerButtonStyle: {
           display: "none",
