@@ -21,7 +21,7 @@ function Home() {
       <h3 id="home-header">Hello, I'm Gaurav!</h3>
       <div id="home-header-introduction">
         I'm an electrical engineering student from the University of Waterloo
-        and I am excited and egar to learn! Please feel free to explore my
+        and I am excited and eager to learn! Please feel free to explore my
         portfolio.
       </div>
       <div id="header-bottom-border"></div>
